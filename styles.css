@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+:root{
+    --color-main: #00030C;
+    --color-sec: #FFFFFF;
+    --color-ter: #167BF7;
+    --color-forth: #C0C0C0;
+    --color-cinza: #F9F9F9;
+}
+
+*{
+   margin: 0;
+   padding: 0; 
+}
+
+body{
+    background-color: var(--color-main);
+    font-family: 'Inter', sans-serif;
+    color: #FFFFFF;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.container{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.first__section{
+    background-image: url("img/Background.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    align-items: center;
+    text-align: center;
+}
+
+.container__box{
+    margin: 7.8125rem 0 7.75rem 3.375rem;    
+}
+
+.first__section__title{
+    font-weight: 700;
+    font-size: 1.75rem;
+}
+
+.first__section__image{
+    margin: 1.375rem 0 3.375rem 0; 
+}
+
+.container__button{
+    border: 2px solid var(--color-ter);
+    background-color: var(--color-ter);
+    color: var(--color-sec);
+    border-radius: 0.5rem;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    display: block;
+    text-decoration: none;
+}
+
+.secondary__button{
+    border: 2px solid var(--color-sec);
+    background-color: transparent;
+    margin-bottom: 0.625rem;
+}
+
+.first__section__advice{
+    font-size: 0.75rem;
+    color: var(--color-forth);
+}
+
+.second__section{
+    align-items: center;
+    margin: 0 10.3125rem;
+}
+
+.second__section__image{
+    width: 80%;
+    margin-right: 4.3125rem;
+}
+
+.second__section__title{
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+
+.second__section__p{
+    color: var(--color-cinza);
+}
+
+.third__section__description{
+    margin:0 4.375rem 0 7.5rem;
+}
+
+.third__button{
+    display: inline-block;
+    margin-top: 1rem;
+}
+
+.fourth__image{
+    margin-right: 2.75rem;
+}
+
+.last__section__title{
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 2.5rem;
+    font-weight: 700;
+}
+
+.last__section__box{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    gap: 4.3125rem;
+}
+
+.last__section__item{
+    font-size: 2rem;
+    margin-top: 1rem;
+    text-align: center;
+    margin-bottom: 9.0625rem;
+}
+
+footer{
+    text-align: center;
+}
+
+.list__itens{
+    display: flex;
+    gap: 1rem;
+    list-style-type: none;
+    justify-content: center;
+    margin: 2.5625rem 1.5rem;
+}
+
+.footer__direitos{
+    font-size: 0.875rem;
+    color: var(--color-forth);
+    margin-bottom: 6.1875rem;
+}
+
+.reservado{
+    margin-bottom: 1rem;
+}
+
+.footer__links{
+    text-decoration: none;
+    color: var(--color-sec);
+}
+
+.footer__links:hover{
+    color: var(--color-ter);
+}
+
+.container__button:hover{
+    background-color: #3c92fa;
+    color: var(--color-main);
+}
+
+.secondary__button:hover{
+    background-color: var(--color-forth);
+    color: var(--color-main);
+}
